@@ -1,0 +1,181 @@
+{
+  "uuid": "e56165fc7d01c855f9bd510c3a3f17c8",
+  "path": "Offline/Dino",
+  "name": "Dino",
+  "content": "Dino-stuff",
+  "created_at": "2021-07-31 15:05:22",
+  "updated_at": "2021-08-27 21:35:37",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "2bbb286ebfbeee6f69d231a1fd90444f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b0248eb51e084227889f2cb84eab79c4": 2,
+        "c63059650f95465b9d9c2e7f785b2ad0": 2,
+        "896a9865fd5045ebb31675dc4f3a23b5": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "5cbe824183374fac8e4c1ae848199ce3": 1,
+        "10ef6812c442bf476dd26c0c12f96e15": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10n",
+          1,
+          "C0603",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10p",
+          1,
+          "C0603",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1N457",
+          2,
+          "DO-35_BD1.7-L3.8-P7.8-D0.5-FD",
+          "D1,D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C895219",
+            "BOM_Manufacturer": "ON(安森美)",
+            "BOM_Manufacturer Part": "1N457",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1865e54a4c5c454daa32b11d0bc05f67",
+            "uuid": "c63059650f95465b9d9c2e7f785b2ad0"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "15Ω",
+          1,
+          "R0603",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0603",
+          "R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "NE555P",
+          1,
+          "DIP-8_L9.8-W6.6-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "NE555P",
+            "BOM_Supplier Part": "C46749",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "d02bd24390b14704889edf7a144138dd",
+            "uuid": "10ef6812c442bf476dd26c0c12f96e15"
+          }
+        ],
+        [
+          "B10K",
+          1,
+          "RES-ADJ-TH_BK10",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2839839",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "B10K",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b14a2140bb944609b13ad7df09bd203b",
+            "uuid": "896a9865fd5045ebb31675dc4f3a23b5"
+          }
+        ]
+      ],
+      "updateTime": 1630092330,
+      "createTime": 1630066668,
+      "histories": [],
+      "created_at": "2021-08-27 14:17:48",
+      "updated_at": "2021-08-27 21:25:30"
+    },
+    {
+      "uuid": "f478a9aef19187f9d2bec24be8dddc5d",
+      "puuid": "e56165fc7d01c855f9bd510c3a3f17c8",
+      "title": "PCB_Dino",
+      "filename": "PCB_Dino.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "1865e54a4c5c454daa32b11d0bc05f67": 2,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 1,
+        "398691f1f785460098bbe5ee6590333c": 2,
+        "d02bd24390b14704889edf7a144138dd": 1,
+        "b14a2140bb944609b13ad7df09bd203b": 1
+      },
+      "BOM": [],
+      "updateTime": 1630092937,
+      "createTime": 1630092937,
+      "histories": [],
+      "created_at": "2021-08-27 21:35:37",
+      "updated_at": "2021-08-27 21:35:37"
+    }
+  ],
+  "sort": [],
+  "title": "Dino",
+  "foldername": "Dino",
+  "schfilename": "Dino.json",
+  "schfilemtime": 1630092331013
+}
