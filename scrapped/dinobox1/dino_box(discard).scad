@@ -60,8 +60,7 @@ module Dial(height = DIAL_HEI, peak_dist = DIAL_PEAK_DIST, thickness = DIAL_OUT,
         
         Dial_base(0, base_dia + thickness, height - tolerance, peak_dist - (tolerance/2), res);
 
-        trace_step = 360;
-            Dial_trace(circumfrance, trace_depth, trace_step, (base_dia + thickness)/2 + trace_nudge, 
+            Dial_trace(circumfrance, trace_depth, trace_offset, (base_dia + thickness)/2 + trace_nudge, 
               grip_res);
         
         Dial_basecut(base_dia - shell_thick, height, lip_width, lip_thick);
