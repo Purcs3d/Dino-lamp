@@ -42,7 +42,7 @@ Permitted modules according to DIN 780:
 // General Variables
 pi = 3.14159;
 rad = 57.29578;
-clearance = 0.05;   // clearance between teeth
+clearance = 0.1;   // clearance between teeth
 
 /*  Converts Radians to Degrees */
 function grad(pressure_angle) = pressure_angle*rad;
